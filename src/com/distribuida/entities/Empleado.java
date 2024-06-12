@@ -1,7 +1,11 @@
 package com.distribuida.entities;
 
-@component
+import javax.persistence.Entity;
+import javax.persistence.Table;
 
+@component
+@Entity
+@Table(name = "empleado")
 
 public class Empleado {
 
