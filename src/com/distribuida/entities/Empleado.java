@@ -1,12 +1,12 @@
 package com.distribuida.entities;
 
-import org.springframework.stereotype.Component;
-
-@Component
-
+@component
 
 
 public class Empleado {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 
 	@Column(name = "id_Empleado")
 	private int idEmpleado;
